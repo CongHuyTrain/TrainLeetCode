@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lengthoflastword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addonetointvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="index_of_target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveDuplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="add2liistnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="placeofcomparestring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="searchcanbacbangbinary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DFSfinddepth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideandconquerBST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compare2binary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="returnvalclasstree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbinarytreebalance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="let105.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="llcircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="duyettruoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1h1t1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constructbinariinpost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1h0t2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addtwochuoidasapxep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashtableapplication160.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chartosigninterger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convertinttostring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pathsumii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="completetreecount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="partitionlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1h1t2.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
