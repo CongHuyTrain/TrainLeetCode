@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include<unordered_map>
 //2367. Number of Arithmetic Triplets
 //Solved
 //Easy
@@ -52,6 +53,23 @@ public:
                     if ((nums[j] - nums[i] == diff) && (nums[k] - nums[j] == diff))  result++; // check condition
                 }
             }
+        }
+        return result;
+    }
+};
+// try best op use hasmap to 
+class Solution {
+public:
+    int arithmeticTriplets(vector<int>& nums, int diff) {
+        int result = 0;
+        unordered_map<int, int> a;
+        for (int i = 0; i < nums.size(); i++) {
+            a[nums[i]] = i;
+        }
+        for (int i = 0; i < nums.size(); i++) {
+            // normal nums[j] - nums[i] == diff, and nums[k] - nums[j] == diff. -> nums[i] = ... and nums[k] = ..
+            // and use hasmap to find if two exit then return it.
+            if (a.find(nums[i] - diff) != a.end() && a.find(diff + nums[i]) != a.end())   result++;
         }
         return result;
     }

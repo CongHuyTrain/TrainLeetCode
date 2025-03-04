@@ -49,7 +49,7 @@ public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> numCount;
         for (int i = 0; i < nums.size(); i++) {
-            if (numCount.find(target - nums[i]) != numCount.end()) {
+            if (numCount.find(target - nums[i]) != numCount.end()) { //if exit a num that + nums[i] = target then return.
                 return { numCount[target - nums[i]], i };
             }
             numCount[nums[i]] = i;
