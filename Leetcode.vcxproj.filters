@@ -15,91 +15,139 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lengthoflastword.h">
+    <ClInclude Include="Solution58.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="L.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="addonetointvector.h">
+    <ClInclude Include="Solution35.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="index_of_target.h">
+    <ClInclude Include="Solution83.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveDuplication.h">
+    <ClInclude Include="Solution136.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SingleNumber.h">
+    <ClInclude Include="Solution108.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="add2liistnode.h">
+    <ClInclude Include="Solution100.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="placeofcomparestring.h">
+    <ClInclude Include="Solution103.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="searchcanbacbangbinary.h">
+    <ClInclude Include="Solution110.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DFSfinddepth.h">
+    <ClInclude Include="Solution105.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DivideandconquerBST.h">
+    <ClInclude Include="Solution141.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="compare2binary.h">
+    <ClInclude Include="Solution111.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="returnvalclasstree.h">
+    <ClInclude Include="Solution102.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="checkbinarytreebalance.h">
+    <ClInclude Include="Solution160.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="let105.h">
+    <ClInclude Include="Solution8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="llcircle.h">
+    <ClInclude Include="Solution168.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="duyettruoc.h">
+    <ClInclude Include="Solution113.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="1h1t1.h">
+    <ClInclude Include="Solution222.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="constructbinariinpost.h">
+    <ClInclude Include="Solution86.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="1h0t2.h">
+    <ClInclude Include="Solution33.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="addtwochuoidasapxep.h">
+    <ClInclude Include="Solution14.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Hashtableapplication160.h">
+    <ClInclude Include="Solution169.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="chartosigninterger.h">
+    <ClInclude Include="Solution171.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="convertinttostring.h">
+    <ClInclude Include="Solution3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pathsumii.h">
+    <ClInclude Include="Solution17.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="completetreecount.h">
+    <ClInclude Include="Solution202.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="partitionlist.h">
+    <ClInclude Include="Solution917.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution859.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution27.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution2367.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution2914.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution383.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution392.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution26.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution80.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution88.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution189.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution121.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1h1t2.h">
+    <ClCompile Include="Solution112.h">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test917.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test2914.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

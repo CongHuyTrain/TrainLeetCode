@@ -25,32 +25,64 @@ public:
     int lengthOfLongestSubstring(string s) {
         int maxlength = 0; // int logest substring 
         for (int i = 0; i < s.size(); i++) { // a loot to find each substring can exit
-            int cacul = caculLength(s, i);
-            maxlength = max(maxlength, cacul);
-            if (maxlength >= s.size() - i) return maxlength;
+            int cacul = caculLength(s, i); // call fuction, substring without repeating, length of it will return to compare.
+            maxlength = max(maxlength, cacul); // compare if new substring is bigger than, them replace it.
+            if (maxlength >= s.size() - i) return maxlength; // if length of substring >= length of i to end, then end loot.
         }
-        return maxlength;
+        return maxlength;// return answer
     }
     int caculLength(string s, int local) {
-        int result = 0;
+        int result = 1;
         string temp = "";
         temp = temp + s[local];
-        int i = local;
         bool flat = true;
-        while (flat == true && i < s.size() - 1) {
-            if (s[i] == s[i + 1]) {
+        while (flat == true && local < s.size()-1) {
                 for (int j = 0; j < temp.size(); j++) {
-                    if (s[i + 1] == temp[j]) {
+                    if (s[local + 1] == temp[j]) {
                         result--;
                         flat = false;
                         break;
                     }
                 }
-                temp = temp + s[i + 1];
+                temp = temp + s[local + 1];
                 result++;
-            }
-            i++;
+                local++;
         }
         return result;
     }
 };
+//code faster:
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        unordered_map<char,int> m; // aqui o index sera sempre +1
+        int size = 0;
+        int r = 0;
+        //se index atual - ultimo index que apareceu <= size, inclui!
+        for (int i = 0; i < s.size(); i++)
+        {
+            char& c = s[i];
+            if(m[c] != 0 && i - (m[c] - 1) <= size){
+                size = i - (m[c] - 1);
+            }
+            else{
+                size++;
+            }
+            m[c] = i + 1;
+            r = max(r,size);
+        }
+        return r;
+    }
+};
+
+
+
+/*
+a b c a c b
+^ ^ ^ ^ ^
+(a:0)
+*/
