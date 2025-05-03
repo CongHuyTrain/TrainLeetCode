@@ -42,10 +42,12 @@ public:
         }
         return result;
     }
+    // The goal is to make all values in one row the same.
     int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
         unordered_map<int, int> countMapTop;
-        for (auto& i : tops)    countMapTop[i]++; // count 
+        for (auto& i : tops)    countMapTop[i]++; // count how many element appear.
         int countTops = -1, max = 0;
+        // find element appear most.
         for (auto& i : countMapTop) {
             if (i.second > max) {
                 countTops = i.first;
@@ -62,7 +64,12 @@ public:
             }
         }
         if (countMapTop[countTops] == tops.size() || countMapB[countBottoms] == bottoms.size())  return 0; // we dont need this row, if we delete it, it also run, but slower.
-        else if (countMapTop[countTops] > countMapB[countBottoms]) return countSwap(tops, bottoms, countTops); //
+        else if (countMapTop[countTops] > countMapB[countBottoms]) return countSwap(tops, bottoms, countTops);
         else return countSwap(bottoms, tops, countBottoms);
     }
 };
+//In some test cases A.size() != B.size(). This might cause overflow.
+// just use map to calculate which element is occuring most times in both,
+// then loop through the array to check if the element is coming at least once in both array on that index,
+// if not then return -1, and then at last, 
+// just return minimum number of times you have to swap(which is size-freq, return min with the help of both maps)
