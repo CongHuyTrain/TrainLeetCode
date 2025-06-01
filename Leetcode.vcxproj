@@ -149,13 +149,17 @@
     <ClInclude Include="Solution2900.h" />
     <ClInclude Include="Solution2914.h" />
     <ClInclude Include="Solution2918.h" />
+    <ClInclude Include="Solution2929.h" />
+    <ClInclude Include="Solution3024.h" />
     <ClInclude Include="Solution3169.h" />
     <ClInclude Include="Solution3191.h" />
+    <ClInclude Include="Solution3355.h" />
     <ClInclude Include="Solution383.h" />
     <ClInclude Include="Solution392.h" />
     <ClInclude Include="Solution45.h" />
     <ClInclude Include="Solution55.h" />
     <ClInclude Include="Solution56.h" />
+    <ClInclude Include="Solution73.h" />
     <ClInclude Include="Solution75.h" />
     <ClInclude Include="Solution8.h" />
     <ClInclude Include="Solution222.h" />

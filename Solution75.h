@@ -33,20 +33,42 @@ using namespace std;
 //    nums[i] is either 0, 1, or 2.
 
 // way for easy
-void sortColors(vector<int>& nums) {
-    unordered_map<int, int > count;
-    for (int i = 0; i < nums.size(); i++) {
-        if (nums[i] == 0)    count[0]++;
-        else if (nums[i] == 1)   count[1]++;
-        else    count[2]++;
+//void sortColors(vector<int>& nums) {
+//    unordered_map<int, int > count;
+//    for (int i = 0; i < nums.size(); i++) {
+//        if (nums[i] == 0)    count[0]++;
+//        else if (nums[i] == 1)   count[1]++;
+//        else    count[2]++;
+//    }
+//    for (int i = 0; i < count[0]; i++) {
+//        nums[i] = 0;
+//    }
+//    for (int i = count[0]; i < count[0] + count[1]; i++) {
+//        nums[i] = 1;
+//    }
+//    for (int i = count[0] + count[1]; i < nums.size(); i++) {
+//        nums[i] = 2;
+//    }
+//}
+//use two poiter.
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int left = 0;
+        int right = nums.size() - 1;
+        int mid = 0;
+        while (mid <= right) {
+            if (nums[mid] == 0) {
+                swap(nums[left], nums[mid]);
+                left++;
+                mid++;
+            }
+            else if (nums[mid] == 2) {
+                swap(nums[right], nums[mid]);
+                right--;
+            }
+            else mid++;
+        }
+
     }
-    for (int i = 0; i < count[0]; i++) {
-        nums[i] = 0;
-    }
-    for (int i = count[0]; i < count[0] + count[1]; i++) {
-        nums[i] = 1;
-    }
-    for (int i = count[0] + count[1]; i < nums.size(); i++) {
-        nums[i] = 2;
-    }
-}
+};
