@@ -198,6 +198,15 @@
     <ClInclude Include="Solution2929.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Solution386.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3442.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3423.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h">
@@ -210,6 +219,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Test2914.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test386.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
