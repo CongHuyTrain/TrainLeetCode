@@ -37,5 +37,9 @@ class Solution {
 public:
     bool isPowerOfTwo(int n) {
 		return n > 0 && (n & (n - 1)) == 0; // use bitwise AND to check if n is a power of two
+		// because 2^x is always increased 0 and 1 is the only bit set in its binary representation.
+		//for example: 1 (0001), 2 (0010), 4 (0100), 8 (1000), etc.
+		// and n-1( if n == 2^x) will always have 1.
+		// for example: 1 (0000), 2 (0001), 4 (0011), 8 (0111), etc.
     }
 };
