@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 //2348. Number of Zero - Filled Subarrays
-//Attempted
+//Solved
 //Medium
 //Given an integer array nums, return the number of subarrays filled with 0.
 //A subarray is a contiguous non - empty sequence of elements within an array.
