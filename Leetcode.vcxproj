@@ -134,6 +134,7 @@
     <ClInclude Include="Solution122.h" />
     <ClInclude Include="Solution1277.h" />
     <ClInclude Include="Solution1290.h" />
+    <ClInclude Include="Solution1493.h" />
     <ClInclude Include="Solution1498.h" />
     <ClInclude Include="Solution1550.h" />
     <ClInclude Include="Solution17.h" />
@@ -212,6 +213,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h" />
+    <ClCompile Include="Test1493.cpp" />
     <ClCompile Include="Test2914.cpp" />
     <ClCompile Include="Test3.cpp" />
     <ClCompile Include="Test386.cpp" />
