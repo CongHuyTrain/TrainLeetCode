@@ -138,6 +138,7 @@
     <ClInclude Include="Solution1498.h" />
     <ClInclude Include="Solution1550.h" />
     <ClInclude Include="Solution17.h" />
+    <ClInclude Include="Solution1792.h" />
     <ClInclude Include="Solution189.h" />
     <ClInclude Include="Solution2.h" />
     <ClInclude Include="Solution2016.h" />

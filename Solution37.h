@@ -2,36 +2,33 @@
 #include <vector>
 using namespace std;
 class Solution {
-public:
     void solveSudoku(vector<vector<char>>& board) {
-        for (int i = 0; i < board.size(); i++) {
-            for (int j = 0; j < board.size(); j++) {
+        backtrack(board);
+    }
+    bool backtrack(vector<vector<char>>& board) {
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
                 if (board[i][j] == '.') {
-                    vector<int, int> able;
-                    able = solveSudoku(board, i, j);
-                    for (int k = 1; k < able.size(); k++) {
-                        if (able[k] == 0) {
-                            board[i][j] = k;
-                            if (i == 8 && j == 8)    return board;
-                            solveSudoku(board);
+                    for (char c = '1'; c <= '9'; c++) {
+                        if (isValid(board, i, j, c)) {
+                            board[i][j] = c;
+                            if (backtrack(board)) return true;
+                            board[i][j] = '.';
                         }
                     }
+                    return false;
                 }
             }
         }
+        return true;
     }
-    vector<int, int> solveSudoku(vector<vector<char>> board, int col, int row) {
-        vector<int, int> count(10, 0);
-        for (int i = 0; i < board.size(); i++) {
-            if (board[i][row] != ".") {
-                count[board[i][row]]++;
-            }
+
+    bool isValid(vector<vector<char>>& board, int row, int col, char c) {
+        for (int i = 0; i < 9; i++) {
+            if (board[row][i] == c) return false;
+            if (board[i][col] == c) return false;
+            if (board[(row / 3) * 3 + i / 3][(col / 3) * 3 + i % 3] == c) return false;
         }
-        for (int i = 0; i < board[0].size(); i++) {
-            if (board[col][i] != ".") {
-                count[board[col][i]]++;
-            }
-        }
-        return count;
+        return true;
     }
 };
