@@ -279,6 +279,12 @@
     <ClInclude Include="Solution2749.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Solution1304.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutionn1317.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h">

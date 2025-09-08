@@ -134,6 +134,7 @@
     <ClInclude Include="Solution122.h" />
     <ClInclude Include="Solution1277.h" />
     <ClInclude Include="Solution1290.h" />
+    <ClInclude Include="Solution1304.h" />
     <ClInclude Include="Solution1493.h" />
     <ClInclude Include="Solution1498.h" />
     <ClInclude Include="Solution1550.h" />
@@ -215,6 +216,7 @@
     <ClInclude Include="Solution3.h" />
     <ClInclude Include="Solution88.h" />
     <ClInclude Include="Solution917.h" />
+    <ClInclude Include="Solutionn1317.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h" />

@@ -33,7 +33,6 @@ using namespace std;
 //        return {};
 //    }
 //};
-
 // the solution below use hashmap
 // the porpose of function is find a pair that is total == target, and return local of pair
 class Solution {
