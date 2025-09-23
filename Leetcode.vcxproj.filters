@@ -294,6 +294,15 @@
     <ClInclude Include="Solution3005.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Solution2303.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution165.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3541.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h">
