@@ -194,6 +194,7 @@
     <ClInclude Include="Solution386.h" />
     <ClInclude Include="Solution392.h" />
     <ClInclude Include="Solution407.h" />
+    <ClInclude Include="Solution417.h" />
     <ClInclude Include="Solution45.h" />
     <ClInclude Include="Solution55.h" />
     <ClInclude Include="Solution56.h" />
