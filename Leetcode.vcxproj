@@ -235,6 +235,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h" />
+    <ClCompile Include="Solution3186.cpp" />
     <ClCompile Include="Test1493.cpp" />
     <ClCompile Include="Test2914.cpp" />
     <ClCompile Include="Test3.cpp" />
