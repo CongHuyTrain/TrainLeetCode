@@ -330,6 +330,12 @@
     <ClInclude Include="Solution417.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Solution3186.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution2048.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h">
@@ -349,9 +355,6 @@
     </ClCompile>
     <ClCompile Include="Test1493.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution3186.cpp">
-      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

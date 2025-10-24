@@ -151,6 +151,7 @@
     <ClInclude Include="Solution2016.h" />
     <ClInclude Include="Solution202.h" />
     <ClInclude Include="Solution2033.h" />
+    <ClInclude Include="Solution2048.h" />
     <ClInclude Include="Solution2106.h" />
     <ClInclude Include="Solution217.h" />
     <ClInclude Include="Solution219.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="Solution3025.h" />
     <ClInclude Include="Solution3100.h" />
     <ClInclude Include="Solution3169.h" />
+    <ClInclude Include="Solution3186.h" />
     <ClInclude Include="Solution3191.h" />
     <ClInclude Include="Solution3195.h" />
     <ClInclude Include="Solution3201.h" />
@@ -235,7 +237,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution112.h" />
-    <ClCompile Include="Solution3186.cpp" />
     <ClCompile Include="Test1493.cpp" />
     <ClCompile Include="Test2914.cpp" />
     <ClCompile Include="Test3.cpp" />

@@ -1,4 +1,5 @@
-﻿#include <vector>
+﻿#pragma once
+#include <vector>
 #include <unordered_map>
 #include <algorithm>
 using namespace std;
@@ -15,13 +16,14 @@ using namespace std;
 //Input: power = [1, 1, 3, 4]
 //Output : 6
 //Explanation :
-//    The maximum possible damage of 6 is produced by casting spells 0, 1, 3 with damage 1, 1, 4.
-//    Example 2 :
-//    Input : power = [7, 1, 6, 6]
-//    Output : 13
-//    Explanation :
-//    The maximum possible damage of 13 is produced by casting spells 1, 2, 3 with damage 1, 6, 6.
+//	The maximum possible damage of 6 is produced by casting spells 0, 1, 3 with damage 1, 1, 4.
+//	Example 2 :
+//	Input : power = [7, 1, 6, 6]
+//	Output : 13
+//	Explanation :
+//	The maximum possible damage of 13 is produced by casting spells 1, 2, 3 with damage 1, 6, 6.
 //Constraints:
+//
 //1 <= power.length <= 10^5
 //1 <= power[i] <= 10^9
 class Solution {
@@ -47,12 +49,11 @@ public:
             int j = upper_bound(uniq.begin() + i + 1, uniq.end(), need) - uniq.begin();
             nxt[i] = j;
         }
-        vector<long long> dp(n + 1, 0); 
+        vector<long long> dp(n + 1, 0);
+
         for (int i = n - 1; i >= 0; i--) {
-            // uniq[i
-            long long skip = dp[i + 1]; 
-            // chọn lấy uniq[i]
-            long long take = uniq[i] * cnt[uniq[i]]; // 
+            long long skip = dp[i + 1];
+            long long take = uniq[i] * cnt[uniq[i]];
             int j = nxt[i];
             if (j <= n) {
                 take += dp[j];
