@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClInclude Include="Solution1.h" />
     <ClInclude Include="Solution1007.h" />
+    <ClInclude Include="Solution1018.h" />
     <ClInclude Include="Solution102.h" />
     <ClInclude Include="Solution11.h" />
     <ClInclude Include="Solution120.h" />
     <ClInclude Include="Solution121.h" />
     <ClInclude Include="Solution122.h" />
+    <ClInclude Include="Solution1262.h" />
     <ClInclude Include="Solution1277.h" />
     <ClInclude Include="Solution1290.h" />
     <ClInclude Include="Solution1304.h" />
@@ -160,6 +162,7 @@
     <ClInclude Include="Solution219.h" />
     <ClInclude Include="Solution2197.h" />
     <ClInclude Include="Solution2210.h" />
+    <ClInclude Include="Solution2211.h" />
     <ClInclude Include="Solution2264.h" />
     <ClInclude Include="Solution2303.h" />
     <ClInclude Include="Solution231.h" />
