@@ -1,4 +1,6 @@
 #pragma once
+#include<vector>
+using namespace std;
 //45. Jump Game II
 //Solved
 //Medium
