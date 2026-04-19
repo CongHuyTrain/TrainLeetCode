@@ -170,6 +170,7 @@
     <ClInclude Include="Solution2367.h" />
     <ClInclude Include="Solution2419.h" />
     <ClInclude Include="Solution242.h" />
+    <ClInclude Include="Solution2515.h" />
     <ClInclude Include="Solution26.h" />
     <ClInclude Include="Solution2654.h" />
     <ClInclude Include="Solution27.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="Solution2787.h" />
     <ClInclude Include="Solution290.h" />
     <ClInclude Include="Solution2900.h" />
+    <ClInclude Include="Solution2906.h" />
     <ClInclude Include="Solution2914.h" />
     <ClInclude Include="Solution2918.h" />
     <ClInclude Include="Solution2929.h" />
@@ -200,6 +202,7 @@
     <ClInclude Include="Solution3516.h" />
     <ClInclude Include="Solution3541.h" />
     <ClInclude Include="Solution37.h" />
+    <ClInclude Include="Solution3783.h" />
     <ClInclude Include="Solution383.h" />
     <ClInclude Include="Solution386.h" />
     <ClInclude Include="Solution392.h" />
