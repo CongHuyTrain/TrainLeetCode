@@ -48,3 +48,21 @@ public:
 		return {}; // if not found return empty vector
     }
 };
+
+// retrain:
+//class Solution {
+//public:
+//    vector<int> twoSum(vector<int>& nums, int target) {
+//        unordered_map<int, int> mark;
+//        int n = nums.size();
+//        mark[nums[0]] = 1;
+//        for (int i = 1; i < n; i++) {
+//            if (mark[target - nums[i]] > 0) {
+//                if (target - nums[i] == nums[0])   return { 0, i };
+//                return { mark[target - nums[i]], i };
+//            }
+//            mark[nums[i]] = i;
+//        }
+//        return { 0,0 };
+//    }
+//};
